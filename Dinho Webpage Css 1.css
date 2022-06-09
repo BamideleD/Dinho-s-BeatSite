@@ -19,9 +19,30 @@ body{
 
 h1{
     text-align: center;
+    font-size: 30px;
     margin-bottom: 20px;
-    font-weight: bolder;
+    font-variant: small-caps;
+    /* font-weight: bolder;     */
 }
+.glow {
+    /* font-size: 80px; */
+    color: goldenrod;
+    text-align: center;
+
+    -webkit-animation: glow 3s ease-in-out infinite alternate;
+    -moz-animation: glow 3s ease-in-out infinite alternate;
+    animation: glow 3s ease-in-out infinite alternate;
+  }
+  
+@keyframes glow {
+    from {
+      text-shadow: 0 0 10px goldenrod, 0 0 20px goldenrod, 0 0 30px #e6b400, 0 0 40px #e6ad00, 0 0 50px #e6ad00, 0 0 60px #e6ad00, 0 0 70px #e68600;
+    }
+    to {
+      text-shadow: 0 0 20px goldenrod, 0 0 30px #443302, 0 0 40px #3d3e04, 0 0 50px #4f5007, 0 0 60px #8a6211, 0 0 70px #72621d, 0 0 80px #725c0c;
+    }
+  }
+
 b{
    padding: 10px
 }
@@ -45,11 +66,21 @@ audio {
     border: 2px solid rgba(218, 165, 32, 0.237);
     border-radius: 0 0 0 0;
     margin: 10px;
-    padding-right: 0%;
+    /* padding-right: 0%; */
     
     text-align: center;
     padding: 10px;  
     background-color: rgba(0, 0, 0, 0.779);
+}
+
+.col:hover{
+    margin: 5px
+
+
+
+
+
+
 }
 .cha{
     display: grid;
