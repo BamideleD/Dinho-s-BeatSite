@@ -66,7 +66,16 @@ audio {
     justify-content: flex-start;
     list-style-type: none;
     
-    /*margin-left: auto;*/
+    
+}
+
+.navbar-nav a:hover {
+    border-bottom: 2px inset rgba(218, 165, 32, 0.698);
+    
+    
+    
+    
+  /* transform: translateX(3%); */
 }
 
 a{
@@ -88,6 +97,8 @@ a{
     
     
 }
+
+
 
 /* .gridd{
     width: 1fr;
