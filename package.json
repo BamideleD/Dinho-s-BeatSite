@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/BamideleD/Dinho-s-BeatSite/issues"
   },
-  "homepage": "https://github.com/BamideleD/Dinho-s-BeatSite#readme"
+  "homepage": "https://github.com/BamideleD/Dinho-s-BeatSite#readme",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
 }
